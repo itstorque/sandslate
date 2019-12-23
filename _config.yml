@@ -1,0 +1,20 @@
+title: "Sandslate Portfolio"
+description: "This is a preview of the Sandslate, a minimal portfolio theme for jekyll sites"
+github_username: tareqdandachi
+baseurl: "/sandslate"
+url: "tareqdandachi.github.io"
+
+plugins:
+  - jemoji
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+header_pages:
+  - index.md
+  - preview.md
+
+# set the size of the text to 'large' or 'small', default is small
+font-size: small
