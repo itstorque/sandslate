@@ -16,13 +16,15 @@
   {% endif %}
 
   {% if page.alignment == "right" %}
-    <link rel="stylesheet" href="{{ '/assets/css/right_style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/right_modifier.css' | relative_url }}">
   {%- elsif page.alignment == "left" -%}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% else %}
 
     {% if site.right_aligned == true %}
-      <link rel="stylesheet" href="{{ '/assets/css/right_style.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/right_modifier.css' | relative_url }}">
     {% else %}
       <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% endif %}
