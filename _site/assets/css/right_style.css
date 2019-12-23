@@ -10,7 +10,7 @@ body {
 
   color: var(--text-color);
   background-color: var(--background-color);
-  text-align: right;
+  text-align: justify;
 
 }
 
