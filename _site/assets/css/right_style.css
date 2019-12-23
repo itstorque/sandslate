@@ -10,6 +10,7 @@ body {
 
   color: var(--text-color);
   background-color: var(--background-color);
+  text-align: right;
 
 }
 
@@ -63,23 +64,25 @@ nav {
   height: 100vh;
 
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
 
   padding-top: 6em;
+  text-align: right;
 
 }
 
 nav ul {
 
   list-style-type: none;
-  margin-left: 2em;
+  margin-right: 3em;
 
 }
 
 nav ul li {
 
   margin-bottom: 1em;
+  text-align: right;
 
 }
 
@@ -130,11 +133,11 @@ footer {
   width: 20%;
 
   position: fixed;
-  left: 5em;
+  right: 5em;
   bottom: 1em;
 
   font-size: 0.8em;
-  text-align: left;
+  text-align: right;
 
   color: var(--grey);
 
@@ -148,7 +151,7 @@ header {
   left: 3em;
 
   font-size: 0.8em;
-  text-align: right;
+  text-align: left;
 
   color: var(--grey);
 
@@ -159,7 +162,8 @@ header {
   font-family: 'Allison Script';
   font-size: 3.5em;
   max-width: 4em;
-  padding-left: 1em;
+  margin-left: 1em;
+  padding-right: 0;
   margin-bottom: 1em;
 
   color: var(--text-color);
@@ -169,12 +173,12 @@ header {
 #content {
 
   width: 65%;
-  right: 0;
+  left: 0;
   top: 0;
   position: absolute;
 
   padding: 2em;
-  padding-right: 4em;
+  padding-left: 4em;
 
 }
 
@@ -203,5 +207,7 @@ img {
 
 }
 
-ul {padding-left:1em}
-li {padding-left:1em}
+ul {padding-left:1em;
+    text-align: justify;}
+li {padding-left:1em;
+    text-align: justify;}

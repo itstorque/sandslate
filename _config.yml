@@ -17,3 +17,4 @@ header_pages:
   - preview.md
 
 color_mode: light #dark or light theme
+right_aligned: true #true or false -> right aligned content or left aligned content
