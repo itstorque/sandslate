@@ -1,6 +1,10 @@
-# sandslate
-A Minimal Portfolio Theme for Jekyll Sites
+# Sandslate
+A Minimal Portfolio Theme for Jekyll Sites.
 
+Sandslate is a customizable light-weight minimal theme you can use on your jekyll site, whether you are hosting on GitHub or your own servers.
+Whether you want a minimal personal portfolio to showcase your work, log your journeys or put your art on, Sandslate is an awesome theme you can use to spice up that portfolio easily.
+
+Preview the theme on Sandslate's official page: [tareqdandachi.github.io/sandslate](tareqdandachi.github.io/sandslate).
 
 ## Theme Properties & Customization
 
@@ -11,6 +15,8 @@ The theme's default color scheme is the light-mode theme, however, this can be c
 ```ruby
 color_mode: dark
 ```
+
+The allowed values are `light` and `dark`, otherwise it will default to light-mode.
 
 ### Alignment
 
@@ -37,3 +43,9 @@ title: Home
 layout: home
 alignment: left
 ```
+
+## Customizing content
+
+### Multiple Columns of Text
+
+### Embedding Images
