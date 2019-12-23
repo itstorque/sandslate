@@ -135,6 +135,21 @@ nav ul:hover li:hover.active a {
 
 }
 
+footer {
+
+  width: 20%;
+
+  position: fixed;
+  left: 5em;
+  bottom: 1em;
+
+  font-size: 0.8em;
+  text-align: left;
+
+  color: var(--grey);
+
+}
+
 #site_title {
 
   font-family: 'Allison Script';
@@ -156,5 +171,17 @@ nav ul:hover li:hover.active a {
 
   padding: 2em;
   padding-right: 4em;
+
+}
+
+.multicols {
+
+  column-count: 2;
+
+}
+
+.multicols3 {
+
+  column-count: 3;
 
 }
