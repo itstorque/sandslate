@@ -16,5 +16,4 @@ header_pages:
   - index.md
   - preview.md
 
-# set the size of the text to 'large' or 'small', default is small
-font-size: small
+color_mode: light #dark or light theme

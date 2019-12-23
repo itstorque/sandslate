@@ -9,6 +9,11 @@
   </title>
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind:300,500,600&display=swap" rel="stylesheet">
   <link >
+  {% if site.color_mode == "dark" %}
+    <link rel="stylesheet" href="{{ '/assets/css/dark_colors.css' | relative_url }}">
+  {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/light_colors.css' | relative_url }}">
+  {% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 </head>
