@@ -185,3 +185,19 @@ footer {
   column-count: 3;
 
 }
+
+img {
+
+  width: 105%;
+  max-height: 50vh;
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: -2.5%;
+
+  object-fit: cover;
+
+}
+
+ul {padding-left:1em}
+li {padding-left:1em}
