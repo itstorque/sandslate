@@ -4,39 +4,15 @@ layout: home
 ---
 
 {:.page_title}
-#### Most Recent
-# Publication
-
-# This is a title
-## Subtitle
-
-{:.embed_title}
-![IMAGE](https://images.unsplash.com/photo-1554296048-b59c9fca4857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80)
-<h1>Embedded Title</h1>
-
-{:.multicols}
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea consequatur? Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil vel illum qui eum fugiat quo voluptas.
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea consequatur? Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil vel illum qui eum fugiat quo voluptas.
-
-![IMAGE](https://images.unsplash.com/photo-1554296048-b59c9fca4857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80)
-
-This is a demonstration of lists:
-
-* cras
-* pellentesque id
-* dictum sit
-
-1. morbi blandit
-2. eu mauris
-3. auctor augue
-
-{:.multicols}
-1. morbi blandit
-2. eu mauris
-3. auctor augue
-4. pellentesque id
-5. cras
-6. lorem
+#### A Minimal Theme for Jekyll Sites
+# Sandslate
 
 
-> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea consequatur? Quis autem vel eum iure reprehenderit qui in voluptate velit esse quam nihil vel illum qui eum fugiat quo voluptas.
+![](https://images.unsplash.com/photo-1573743338941-39db12ef9b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80)
+
+Sandslate is a customizable light-weight minimal theme you can use on your jekyll site, whether you are hosting on GitHub or your own servers.
+Whether you want a minimal personal portfolio to showcase your work, log your journeys or put your art on, Sandslate is an awesome theme you can use to spice up that portfolio easily.
+
+See the theme's features in the [preview](/sandslate/preview) page or some fictional examples in the [examples](/sandslate/examples/bakery.html) page.
+
+To see how to install and use the features of *Sandslate*, check the [README](/sandslate/read_me) doc on the [github page](https://github.com/tareqdandachi/sandslate) or the [/read_me](/sandslate/read_me).
