@@ -173,8 +173,9 @@ header {
   top: 0;
   position: absolute;
 
-  padding: 2em;
-  padding-right: 4em;
+  padding: 0.5%;
+  padding-right: 4.5%;
+  padding-top: 6em;
 
 }
 
@@ -205,3 +206,20 @@ img {
 
 ul {padding-left:1em}
 li {padding-left:1em}
+
+@media only screen and (max-width: 980px) {
+  nav {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding-top: 2em;
+    text-align: center;
+  }
+  nav ul li {padding-left: 0px;}
+  #site_title{text-align: center; width: 100%; display: inline-block; padding-left: 0px}
+  #content {
+    width: 100%;
+    position: relative;
+  }
+  .multicols, .multicols3 {column-count: 1}
+}

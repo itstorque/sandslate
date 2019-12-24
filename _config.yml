@@ -15,6 +15,7 @@ highlighter: rouge
 header_pages:
   - index.md
   - preview.md
+  - read_me.md
 
 color_mode: light #dark or light theme
-right_aligned: true #true or false -> right aligned content or left aligned content
+right_aligned: false #true or false -> right aligned content or left aligned content
