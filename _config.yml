@@ -1,11 +1,26 @@
 title: "Sandslate Portfolio"
+tagline: "A minimal jekyll theme"
 description: "This is a preview of the Sandslate, a minimal portfolio theme for jekyll sites"
+author: Tareq El Dandachi
 github_username: tareqdandachi
 baseurl: "/sandslate"
 url: "tareqdandachi.github.io"
 
+social:
+  name: Tareq El Dandachi
+  links:
+    - https://twitter.com/tareqdandachi
+    - https://www.facebook.com/tdandachi
+    - https://github.com/tareqdandachi
+    - https://www.linkedin.com/in/tareq-el-dandachi-940090173/
+    - https://tareqdandachi.github.io
+
+lang: en_US
+
 plugins:
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 sass:
   style: compressed
