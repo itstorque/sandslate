@@ -18,4 +18,4 @@
 
 }
 
-#site_title { font-size: 2.8em; }
+#site_title { font-size: 2.8em; max-width: 8em; }
