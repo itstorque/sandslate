@@ -1,0 +1,16 @@
+---
+# Font File
+---
+
+@font-face {
+    font-family: 'Allison Script';
+    src: url("../fonts/Allison_Script.otf") format("opentype");
+}
+
+:root {
+
+  --logo-font:    {{ site.logo_font }};
+  --title-font:   {{ site.title_font }};
+  --content-font: {{ site.content_font }};
+
+}

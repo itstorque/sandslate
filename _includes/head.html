@@ -7,13 +7,15 @@
     {% if page.layout != 'home' %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - {{ site.title }}{% else %}
     {{ site.title }}{% endif %}
   </title>
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind:300,500,600&display=swap" rel="stylesheet">
-  <link >
+
   {% if site.color_mode == "dark" %}
     <link rel="stylesheet" href="{{ '/assets/css/dark_colors.css' | relative_url }}">
   {% else %}
     <link rel="stylesheet" href="{{ '/assets/css/light_colors.css' | relative_url }}">
   {% endif %}
+
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+  <link href="{{ site.font_link_source }}" rel="stylesheet">
 
   {% if page.alignment == "right" %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

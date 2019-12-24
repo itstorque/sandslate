@@ -44,6 +44,26 @@ layout: home
 alignment: left
 ```
 
+### Changing the main fonts
+
+This theme uses 3 main fonts: `'Allison Script', 'Dancing Script', 'Hind'`.
+
+However, these fonts can all be changed in the `_config.yml`:
+
+```ruby
+logo_font: 'Allison Script'
+title_font: 'Dancing Script'
+content_font: 'Hind'
+```
+
+You can also import the fonts from an external link using the `font-link-source` parameter in `_config.yml`:
+
+```ruby
+font_link_source: 'https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind:300,500,600&display=swap'
+```
+
+You can also resort to adding fonts manually by editing `_includes/head.html` or `assets/css/fonts.css`.
+
 ## Customizing content
 
 ### Multiple Columns of Text

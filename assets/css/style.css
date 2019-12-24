@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'Allison Script';
-    src: url("../fonts/Allison_Script.otf") format("opentype");
-}
-
 body {
 
-  font-family: 'Hind';
+  font-family: var(--content-font);
   font-size: 20px;
 
   color: var(--text-color);
@@ -15,7 +10,7 @@ body {
 
 h1 {
 
-  font-family: 'Dancing Script';
+  font-family: var(--title-font);
   font-weight: bold;
   font-size: 2.4em;
   margin-top: 0px;
@@ -165,7 +160,7 @@ header {
 
 #site_title {
 
-  font-family: 'Allison Script';
+  font-family: var(--logo-font);
   font-size: 3.5em;
   max-width: 4em;
   padding-left: 1em;

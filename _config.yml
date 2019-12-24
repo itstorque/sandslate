@@ -19,3 +19,9 @@ header_pages:
 
 color_mode: light #dark or light theme
 right_aligned: false #true or false -> right aligned content or left aligned content
+
+logo_font: 'Allison Script'
+title_font: 'Dancing Script'
+content_font: 'Hind'
+
+font_link_source: 'https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind:300,500,600&display=swap'
