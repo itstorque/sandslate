@@ -195,25 +195,11 @@ header {
 
 }
 
-a:link {
-  text-decoration: none;
-  color: var(--active);
-}
-
-a:visited {
-  text-decoration: none;
-  color: var(--faded);
-}
-
-a:hover {
-  text-decoration: none;
-  color: var(--lighter-text);
-}
-
-a:active {
-  text-decoration: none;
-  color: var(--grey);
-}
+a {text-decoration: none;}
+a:link, a:visited.always_active, a:active.always_active {color: var(--active);}
+a:visited {color: var(--faded);}
+a:hover, a:hover.always_active {color: var(--lighter-text);}
+a:active {color: var(--grey);}
 
 img {
 
