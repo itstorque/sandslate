@@ -15,7 +15,7 @@
   {% endif %}
 
   <link href="{{ '/assets/css/fonts.css' | relative_url }}" rel="stylesheet">
-  <link href="{{ site.font_link_source }}" rel="stylesheet">
+  <link href="{{ site.font_link_source | default: 'https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind:300,500,600&display=swap' }}" rel="stylesheet">
 
   <link href="{{ '/assets/css/syntax_highlighting.css' | relative_url }}" rel="stylesheet">
 

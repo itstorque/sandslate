@@ -26,3 +26,11 @@ title_font: 'Dancing Script'
 content_font: 'Hind'
 
 font_link_source: 'https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind:300,500,600&display=swap'
+
+defaults:
+  -
+    scope:
+      path: "" # all files in the project
+      type: "pages"
+    values:
+      layout: "page"

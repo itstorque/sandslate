@@ -9,8 +9,8 @@
 
 :root {
 
-  --logo-font:    {{ site.logo_font }};
-  --title-font:   {{ site.title_font }};
-  --content-font: {{ site.content_font }};
+  --logo-font:    {{ site.logo_font | default: 'Allison Script' }};
+  --title-font:   {{ site.title_font | default: 'Dancing Script' }};
+  --content-font: {{ site.content_font | default: 'Hind' }};
 
 }
