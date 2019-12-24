@@ -240,6 +240,7 @@ img {
 
 ul {padding-left:1em}
 li {padding-left:1em}
+pre {overflow-x: scroll;}
 
 @media only screen and (max-width: 980px) {
   nav {

@@ -92,6 +92,28 @@ A right-aligned theme can be chosen for aesthetic purposes, standing out and/or 
 
 <h3 id="multiple-columns-of-text">Multiple Columns of Text</h3>
 
+<p>This theme support putting text (<code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> tags) into multiple columns on devices that have a large enough window width.
+This mainly means laptops and tablets will view them as multiple columns while mobile devices preview it as one block of text.</p>
+
+<p>To do so you can add the class <code class="language-plaintext highlighter-rouge">multicols</code> or <code class="language-plaintext highlighter-rouge">multicols3</code> to your text. <code class="language-plaintext highlighter-rouge">multicols</code> results in the paragraph being seperated into 2 equal width columns, while <code class="language-plaintext highlighter-rouge">multicols3</code> splits them into 3 columns.</p>
+
+<h4 id="add-class-to-markdown">Add class to Markdown</h4>
+
+<p>To add this class to markdown, you can add <code class="language-plaintext highlighter-rouge">{:.multicols}</code> to the beginning of the paragraph:</p>
+
+<pre><code class="language-Markdown">{:.multicols}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</code></pre>
+
+<h4 id="add-class-to-html">Add class to HTML</h4>
+
+<p>You add this class to HTML the same way you add any class to a tag.</p>
+
+<pre><code class="language-HTML">&lt;p class="multicols"&gt;
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;/p&gt;
+</code></pre>
+
 <h3 id="embedding-images">Embedding Images</h3>
 
 

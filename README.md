@@ -48,4 +48,28 @@ alignment: left
 
 ### Multiple Columns of Text
 
+This theme support putting text (`<p>` tags) into multiple columns on devices that have a large enough window width.
+This mainly means laptops and tablets will view them as multiple columns while mobile devices preview it as one block of text.
+
+To do so you can add the class `multicols` or `multicols3` to your text. `multicols` results in the paragraph being seperated into 2 equal width columns, while `multicols3` splits them into 3 columns.
+
+#### Add class to Markdown
+
+To add this class to markdown, you can add `{:.multicols}` to the beginning of the paragraph:
+
+```Markdown
+{:.multicols}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+```
+
+#### Add class to HTML
+
+You add this class to HTML the same way you add any class to a tag.
+
+```HTML
+<p class="multicols">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+```
+
 ### Embedding Images
