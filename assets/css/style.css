@@ -116,11 +116,6 @@ nav ul li:hover a {
 nav ul li.active a {
 
   color: var(--active);
-
-}
-
-nav ul li:not:first-child.active a {
-
   margin-left: 0.5em;
 
 }
