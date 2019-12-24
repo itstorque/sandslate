@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>{{ page.title }} | a sandslate example </title>
+
+    {% if page.color_mode == "dark" %}
+      <link rel="stylesheet" href="{{ '/assets/css/dark_colors.css' | relative_url }}">
+    {% else %}
+      <link rel="stylesheet" href="{{ '/assets/css/light_colors.css' | relative_url }}">
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+
+    <link rel="stylesheet" href="{{ '/examples/css/' | relative_url }}{{ page.source_name }}.css">
+
+    <link href="{{ site.font_link_source }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    {% if page.alignment == "right" %}
+      <link rel="stylesheet" href="{{ '/assets/css/right_modifier.css' | relative_url }}">
+    {%- endif -%}
+
+  </head>
+
+
+  <body class="{{ site.font-size }}">
+
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    <nav>
+
+      <h1 id="site_title">{{ page.title }}</h1>
+
+      <ul>
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title == page.title -%}
+            <li class="active"><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+          {%- elsif my_page.title -%}
+            <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+
+    </nav>
+
+    <div id="content">
+
+      {% include header.html %}
+
+      {{ content }}
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>

@@ -41,17 +41,26 @@ h3 {
 
 h4 {
 
-  font-weight: 300;
-  font-size: 0.9em;
-  margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+
+}
+
+h4.page_title {
+
+  width: 100%;
+  text-align: center;
 
   color: var(--faded);
 
 }
 
-h1.page_title {
+h4.page_title + h1 {
 
   color: var(--active);
+  width: 100%;
+  text-align: center;
 
 }
 
