@@ -1,0 +1,21 @@
+:root {
+
+  /* --text-color:       #000000;
+  --lighter-text:     #f7a7a6;
+  --background-color: #FFFFFF; */
+
+  --active: #f48b94;
+  --faded:  #ffc7c6;
+  /* --grey:   #555555; */
+
+}
+
+:root {
+
+  --logo-font:    'Monoton';
+  --title-font:   'Crimson Text';
+  --content-font: {{ site.content_font }};
+
+}
+
+#site_title { font-size: 2.8em; }

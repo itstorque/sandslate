@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
 
-    <link rel="stylesheet" href="{{ '/examples/css/' | relative_url }}{{ page.source_name }}.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Monoton&display=swap" rel="stylesheet">
 
     <link href="{{ site.font_link_source }}" rel="stylesheet">
 
@@ -25,6 +25,8 @@
     {% if page.alignment == "right" %}
       <link rel="stylesheet" href="{{ '/assets/css/right_modifier.css' | relative_url }}">
     {%- endif -%}
+
+    <link rel="stylesheet" href="{{ '/examples/css/' | relative_url }}{{ page.source_name }}.css">
 
   </head>
 
@@ -44,6 +46,13 @@
           <li>
         {%- endif -%}
         <a href="/sandslate/examples/bakery.html">Une Petite Boulangerie</a></li>
+
+        {%- if page.title == "Modern Designer" -%}
+          <li class="active">
+        {%- else -%}
+          <li>
+        {%- endif -%}
+        <a href="/sandslate/examples/designer.html">Modern Designer</a></li>
 
       </ul>
 
