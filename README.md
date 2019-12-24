@@ -73,23 +73,40 @@ This mainly means laptops and tablets will view them as multiple columns while m
 
 To do so you can add the class `multicols` or `multicols3` to your text. `multicols` results in the paragraph being seperated into 2 equal width columns, while `multicols3` splits them into 3 columns.
 
-#### Add class to Markdown
+See [how to add classes in markdown](https://) for further details on adding classes to markdown.
 
-To add this class to markdown, you can add `{:.multicols}` to the beginning of the paragraph:
+### Adding Images
+
+Adding images in markdown is done as such:
+
+```markdown
+![IMAGE](https://images.unsplash.com/photo-1554296048-b59c9fca4857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80)
+```
+
+This theme comes with multiple image types, the default being `change this`. Here is a table of properties of images:
+
+---
+FILL: THIS
+IN: LATER
+---
+
+#### Image Embedded Titles
+
+**FILL THIS IN LATER**
+
+## How to add classes in markdown
+
+To add a class to markdown, you can use `{:.class}` to the beginning of the paragraph. For example, to add the class `multicols` to a paragraph, it would look like this:
 
 ```Markdown
 {:.multicols}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ```
 
-#### Add class to HTML
-
-You add this class to HTML the same way you add any class to a tag.
+The result would be similar to doing that in HTML as such:
 
 ```HTML
 <p class="multicols">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 ```
-
-### Embedding Images
