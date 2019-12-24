@@ -264,8 +264,9 @@ pre {overflow-x: scroll; font-size: 0.9em;}
     padding-top: 8em;
     text-align: center;
   }
-  nav ul, nav ul li, nav ul li a, nav ul li.active a {padding-left: 0px; margin-left: 0px;}
+  nav ul, nav ul li, nav ul li a, nav ul li.active a, nav ul:hover li a, nav ul li:hover a, nav ul:hover li.active a {padding-left: 0px; margin-left: 0px;}
   footer {display: block; position: static; top: 0px; width: 100%; text-align: center; margin-bottom: 10px;}
+  h1, h2, h3, h4 {margin-right: 0px;}
 
   #site_title{text-align: center; width: 100%; display: inline-block; padding-left: 0px; font-size: 4em;}
   #content {
@@ -276,6 +277,7 @@ pre {overflow-x: scroll; font-size: 0.9em;}
     padding-top: 6em;
   }
   .multicols, .multicols3 {column-count: 1}
+  .embed_title + h1 {text-align: center;}
 
 }
 
