@@ -31,21 +31,13 @@
 
   <body class="{{ site.font-size }}">
 
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-
     <nav>
 
       <h1 id="site_title">{{ page.title }}</h1>
 
       <ul>
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title == page.title -%}
-            <li class="active"><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
-          {%- elsif my_page.title -%}
-            <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
-          {%- endif -%}
-        {%- endfor -%}
+        <li class="active"><a href="/sandslate/">Home</a></li>
+        <li class="active"><a href="/sandslate/examples/bakery.html">Une Petite Boulangerie</a></li>
       </ul>
 
     </nav>

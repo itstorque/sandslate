@@ -16,6 +16,7 @@ header_pages:
   - index.md
   - preview.md
   - read_me.md
+  - examples.md
 
 color_mode: light #dark or light theme
 right_aligned: false #true or false -> right aligned content or left aligned content

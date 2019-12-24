@@ -3,13 +3,12 @@ title: Home
 layout: home
 ---
 
-<center>
-  <h4>Most Recent</h4>
-  <h1 class="page_title">Publication</h1>
-</center>
+{:.page_title}
+#### Most Recent
+# Publication
 
-<h1>This is a title</h1>
-<h2>Subtitle</h2>
+# This is a title
+## Subtitle
 
 {:.embed_title}
 ![IMAGE](https://images.unsplash.com/photo-1554296048-b59c9fca4857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80)
