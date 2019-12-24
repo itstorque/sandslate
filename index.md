@@ -4,7 +4,7 @@ layout: home
 ---
 
 <center>
-  <h3>Most Recent</h3>
+  <h4>Most Recent</h4>
   <h1 class="page_title">Publication</h1>
 </center>
 
