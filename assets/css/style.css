@@ -204,8 +204,8 @@ header {
 
 }
 
-a {text-decoration: none;}
-a:link, a:visited.always_active, a:active.always_active {color: var(--active);}
+a {text-decoration: none; color: var(--active);}
+a:visited.always_active, a:active.always_active {color: var(--active);}
 a:visited {color: var(--faded);}
 a:hover, a:hover.always_active {color: var(--lighter-text);}
 a:active {color: var(--grey);}

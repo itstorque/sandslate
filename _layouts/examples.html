@@ -36,8 +36,15 @@
       <h1 id="site_title">{{ page.title }}</h1>
 
       <ul>
-        <li class="active"><a href="/sandslate/">Home</a></li>
-        <li class="active"><a href="/sandslate/examples/bakery.html">Une Petite Boulangerie</a></li>
+        <li><a href="/sandslate/">Home</a></li>
+
+        {%- if page.title == "Une Petite Boulangerie" -%}
+          <li class="active">
+        {%- else -%}
+          <li>
+        {%- endif -%}
+        <a href="/sandslate/examples/bakery.html">Une Petite Boulangerie</a></li>
+
       </ul>
 
     </nav>
