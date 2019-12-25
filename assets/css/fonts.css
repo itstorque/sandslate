@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Allison Script';
-    src: url("../fonts/Allison_Script.otf") format("opentype");
+    src: url("{{ '/assets/fonts/Allison_Script.otf' | relative_url }}") format("opentype");
 }
 
 :root {
