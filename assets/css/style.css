@@ -93,6 +93,8 @@ nav {
 
 }
 
+nav .mobile {display: none;}
+
 nav ul {
 
   list-style-type: none;
@@ -290,14 +292,77 @@ a.mid_float:hover, .mid_float a:hover {color: var(--faded);}
     position: relative;
     padding: 0;
     margin: 0;
-    padding-top: 6em;
+    padding-top: 0em;
+    margin-top: 0em;
   }
   .multicols, .multicols3 {column-count: 1}
   .embed_title + h1 {text-align: center;}
   a.mid_float {text-align: left;}
 
+  /* Mobile navbar styles */
+  nav input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav .tabs {
+    overflow: hidden;
+  }
+  nav .tab {
+    width: 100%;
+    color: black;
+    overflow: hidden;
+  }
+  nav .tab-label {
+    justify-content: space-between;
+    padding: 1em 0;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  nav .tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    padding-left: 0.5em;
+    text-align: center;
+    transition: all .35s;
+    display: inline-block;
+    position: absolute;
+  }
+  nav .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #2c3e50;
+    background: white;
+    transition: all .35s;
+  }
+  nav .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    cursor: pointer;
+  }
+
+  nav input:checked + .tab-label::after {
+    -webkit-transform: rotate(90deg) translateX(0.2em) translateY(0.2em);
+    transform: rotate(90deg) translateX(0.2em) translateY(0.2em);
+    transform-origin: bottom right;
+    padding: 0;
+    margin-bottom: 1em;
+  }
+  nav input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 980px) {
   a:visited.always_active, a:active.always_active {color: var(--active);}
+  nav .mobile {display: none;}
+  nav ul {display: block;}
 }

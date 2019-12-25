@@ -4,15 +4,25 @@
 
   <h1 id="site_title">{{ site.title }}</h1>
 
-  <ul>
-    {%- for path in page_paths -%}
-      {%- assign my_page = site.pages | where: "path", path | first -%}
-      {%- if my_page.title == page.title -%}
-        <li class="active"><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
-      {%- elsif my_page.title -%}
-        <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
+  <div class="tabs">
+    <div class="tab">
+      <input type="checkbox" id="chck1" class="mobile">
+      <label class="mobile tab-label" for="chck1">{{ page.title }}</label>
+      <div class="tab-content">
+
+        <ul>
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title == page.title -%}
+              <li class="active"><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+            {%- elsif my_page.title -%}
+              <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+
+      </div>
+    </div>
+  </div>
 
 </nav>
