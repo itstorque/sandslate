@@ -19,13 +19,6 @@
 
   <link href="{{ '/assets/css/syntax_highlighting.css' | relative_url }}" rel="stylesheet">
 
-  {% if page.stylesheet %}
-    <link href="{{ page.stylesheet | default: layout.stylesheet }}" rel="stylesheet">
-  {% endif %}
-  {% if page.script %}
-    <script src="{{ page.script | default: layout.script }}" type="text/javascript"></script>
-  {% endif %}
-
   {% if page.alignment == "right" %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/right_modifier.css' | relative_url }}">
@@ -40,6 +33,13 @@
       <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% endif %}
 
+  {% endif %}
+
+  {% if page.stylesheet %}
+    <link href="{{ page.stylesheet | default: layout.stylesheet }}" rel="stylesheet">
+  {% endif %}
+  {% if page.script %}
+    <script src="{{ page.script | default: layout.script }}" type="text/javascript"></script>
   {% endif %}
 
   {% seo %}
