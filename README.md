@@ -94,6 +94,20 @@ IN: LATER
 
 **FILL THIS IN LATER**
 
+### Adding Custom Stylesheets and Scripts
+
+You can specify a stylesheet and script to accompany a page in your page's front matter, with the following attributes: `stylesheet` and `script`. This is an example of a valid front matter with a custom css and js file
+
+```ruby
+---
+title: 'Home'
+layout: home
+
+stylesheet: assets/home.css
+script: home.js
+---
+```
+
 ## How to add classes in markdown
 
 To add a class to markdown, you can use `{:.class}` to the beginning of the paragraph. For example, to add the class `multicols` to a paragraph, it would look like this:
