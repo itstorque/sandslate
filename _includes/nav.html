@@ -2,7 +2,7 @@
 
 <nav>
 
-  <h1 id="site_title">{{ site.title }}</h1>
+  <a href="{{ '/' | relative_url }}"><h1 id="site_title">{{ site.title }}</h1></a>
 
   {% include text_width_calc.html %}
   <script type="text/javascript" src="{{ '/assets/js/nav.js' | relative_url }}"></script>
