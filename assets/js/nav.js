@@ -15,7 +15,9 @@ function recalculate_width() {
 
   text = text.split(" ");
 
-  calculated_width = max(calculate_width(text[0], font), calculate_width(text[1:].join(" "), font));
+  first_item = text.shift()
+
+  calculated_width = max(calculate_width(first_item, font), calculate_width(text.join(" "), font));
 
   site_title.style.maxWidth = calculated_width;
 
