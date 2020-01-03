@@ -15,6 +15,14 @@ social:
     - https://www.linkedin.com/in/tareq-el-dandachi-940090173/
     - https://tareqdandachi.github.io
 
+image: https://images.unsplash.com/photo-1573743338941-39db12ef9b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://images.unsplash.com/photo-1573743338941-39db12ef9b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
+
 lang: en_US
 
 plugins:
